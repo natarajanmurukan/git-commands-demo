@@ -5,3 +5,4 @@ print("Git commands used below::");
 print("git init");
 print("git add commands.py")
 print("git status");
+print("git log");
