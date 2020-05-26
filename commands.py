@@ -9,3 +9,4 @@ print("git log");
 print("Testing git diff");
 print("git branch");
 print("git branch feature/f-branch-01");
+print("git branch develop");
