@@ -16,16 +16,7 @@ pipeline {
 			echo "Functional test"
 			}
 		}
-		stage ('test: load-&-security') {
-			steps {
-			echo "Security Testing"
-			}
-		}
-		stage ('approval') {
-			steps {
-			echo "Approaval"
-			}
-		}
+
 		stage ('deploy:prod') {
 			steps {
 			echo "Production deploy"
